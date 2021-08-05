@@ -82,9 +82,10 @@ a:active {
 }
 /* link colors end */
 
+/* audio video calendar and map in home page */
 .anchoraudio {
   text-align: center;
-  
+
 }
 .introvideo {
   text-align: center;
@@ -100,6 +101,10 @@ a:active {
   text-align: center;
 
 }
+
+/* end audio video calendar and map in home page */
+
+
 /* contact form starts for contact page */
  h3 {
    font-family: 'Fugaz One';
@@ -145,7 +150,7 @@ input[type=submit]:hover {
 
 /* contact form ends for contact page */
 
-/* start article one */
+/* start article one in about page*/
 
 .leadimage {
   height: 300px;
@@ -172,9 +177,9 @@ input[type=submit]:hover {
 
   }
 
+  /* end article one in about page */
 
-/* end article one */
-
+/* secontion start in about page*/
 
 .secondimage {
   height: 300px;
@@ -202,13 +207,11 @@ input[type=submit]:hover {
   color: palevioletred;
 }
 
-
-
+/* section end in about page */
 
 /* footer start */
 
 #footer {
-    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
