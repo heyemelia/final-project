@@ -27,102 +27,92 @@ body, html {
  
     /* hero image and text end */
 
-    /* start of nav bar */
+/* start of nav bar */
+ 
 
-  nav ul {
-    list-style: none;
-    padding-left: 0;
-    margin-top: 0;
-    margin-bottom: 0;
-  }
-  
-  h1 {
-    width: 500px;
-    margin: 100px auto 20px;
-    color: white;
-    text-align: center;
-  }
-      
-  .nav {
-    width: 500px;
-    margin: 0 auto;
-    background-color: transparent;
-    color: white;
-    font-family: 'Permanent Marker'
-  }
-  .nav a {
-    display: block;
-    padding: 16px;
-    line-height: inherit;
-    cursor: pointer;
-  }
-  .nav__menu {
-    line-height: 45px;
-    font-weight: 700%;
-    text-transform: uppercase;
-  }
-  .nav__menu-item {
-    display: inline-block;
-    position: relative;
-  }
-  .nav__menu-item:hover {
-    background-color: transparent;
-  }
-  .nav__menu-item:hover .nav__submenu {
-    display: block;
-  }
-  .nav__submenu {
-    font-weight: 300;
-    text-transform: none;
-    display: none;
-    position: absolute;
-    width: 220px;
-    background-color: transparent;
-  }
-  .nav__submenu-item:hover {
-    background: transparent;
-  }
+/* end of navbar */
 
-  /* end of navbar */
-
-    /* link colors */
-  a:link {
-    color: white;
-    background-color: transparent;
-    text-decoration: none;
-  }
-        
-  a:visited {
-    color: lightpink;
-    background-color: transparent;
-    text-decoration: none;
-  }
-  a:hover {
-    color: palevioletred;
-    background-color:transparent;
-            
-  }
-  a:active {
-    color: purple;
-    background-color: transparent;
-  }
+/* link colors */
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: lightpink;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: palevioletred;
+  background-color:transparent;
+                
+}
+a:active {
+  color: purple;
+  background-color: transparent;
+}
 /* link colors end */
 
-/* section {
-  margin-bottom: 500px;
-  padding: 20px;
-  height: 200px;
-  width: 800px;
+/* start article one */
+
+.leadimage {
+  height: 300px;
+  margin: 10px;
+  display: inline-flex;
   float: left;
-  clear: left;
-  margin: 50px;;
-  background-color: palevioletred;
+  /* border: 4px solid palevioletred; */
+  border-radius: 50%;
+  box-shadow: 5px 5px 5px grey;
+}
+
+.leadtext {
+  margin:20px;
+  padding: 20px;
+  height: 259px;
+  width: 900px;
+  float: right;
+  background-color: black;
   border-style: solid;
-  border-color: white;
-  box-shadow: 10px 10px 5px palevioletred; 
+  border-color: palevioletred;
+  box-shadow: 10px 10px 5px grey;  
   font-family: 'Fugaz One';
-  color: white;
-} */
+  color: palevioletred;
+
+  }
+
+
+/* end article one */
+
+
+.secondimage {
+  height: 300px;
+  display: inline-flex;
+  float: right;
+  clear: right;
+  /* border: 4px solid palevioletred; */
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  box-shadow: 5px 5px 5px grey;
+
+}
+.sectiontext {
+  margin:20px;
+  padding: 20px;
+  height: 259px;
+  width: 900px;
+  float: left;
+  background-color: black;
+  border-style: solid;
+  border-color: palevioletred;
+  box-shadow: 10px 10px 5px grey;  
+  font-family: 'Fugaz One';
+  color: palevioletred;
+}
+
+
+
 
 /* footer start */
 
@@ -135,6 +125,7 @@ body, html {
     color: white;
     text-align: center;
     font-family: 'Permanent Marker';
+    height: 50px;
 }
 
 /* footer end */
