@@ -28,6 +28,10 @@ body, html {
     /* hero image and text end */
 
 /* start of nav bar */
+.navbar {
+  text-align: center;
+  
+}
 ul {
   list-style-type: none;
   margin: 0;
@@ -35,19 +39,19 @@ ul {
   overflow: hidden;
   background-color: black;
   font-family: 'Permanent Marker';
-}
 
-li {
-  float: left;
 }
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
 
 li a:hover {
   background-color: black;
@@ -77,6 +81,12 @@ a:active {
   background-color: transparent;
 }
 /* link colors end */
+
+/* intro video start */
+.introvideo {
+  text-align: center;
+
+}
 
 /* contact form starts for contact page */
  h3 {
