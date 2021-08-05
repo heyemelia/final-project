@@ -82,7 +82,10 @@ a:active {
 }
 /* link colors end */
 
-/* intro video start */
+.anchoraudio {
+  text-align: center;
+  
+}
 .introvideo {
   text-align: center;
 
