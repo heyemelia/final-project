@@ -62,7 +62,7 @@ li a:hover {
 /* link colors */
 
 a:link {
-  color: white;
+  color: palevioletred;
   background-color: transparent;
   text-decoration: none;
 }
@@ -220,7 +220,7 @@ input[type=submit]:hover {
     color: white;
     text-align: center;
     font-family: 'Permanent Marker';
-    height: 50px;
+    height: 65px;
 }
 
 /* footer end */
